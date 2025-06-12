@@ -1,0 +1,7 @@
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab03\Lab03.c\bin\Debug\Lab03.c.exe.config
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab03\Lab03.c\bin\Debug\Lab03.c.exe
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab03\Lab03.c\bin\Debug\Lab03.c.pdb
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab03\Lab03.c\obj\Debug\Lab03.c.csproj.AssemblyReference.cache
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab03\Lab03.c\obj\Debug\Lab03.c.csproj.CoreCompileInputs.cache
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab03\Lab03.c\obj\Debug\Lab03.c.exe
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab03\Lab03.c\obj\Debug\Lab03.c.pdb
