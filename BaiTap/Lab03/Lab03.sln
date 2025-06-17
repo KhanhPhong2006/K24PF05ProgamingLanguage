@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03.b", "Lab03.b\Lab03.b.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapLab3", "BaiTapLab3\BaiTapLab3.csproj", "{6086EBA9-4FA0-4BF5-A9A2-602641AC5BE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapLab3.b", "BaiTapLab3.b\BaiTapLab3.b.csproj", "{F7CD2228-B2A8-4566-A1FB-D56180AB5396}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6086EBA9-4FA0-4BF5-A9A2-602641AC5BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6086EBA9-4FA0-4BF5-A9A2-602641AC5BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6086EBA9-4FA0-4BF5-A9A2-602641AC5BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CD2228-B2A8-4566-A1FB-D56180AB5396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CD2228-B2A8-4566-A1FB-D56180AB5396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CD2228-B2A8-4566-A1FB-D56180AB5396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CD2228-B2A8-4566-A1FB-D56180AB5396}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

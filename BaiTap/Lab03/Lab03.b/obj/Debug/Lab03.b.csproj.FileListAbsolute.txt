@@ -1,0 +1,2 @@
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab03\Lab03.b\obj\Debug\Lab03.b.csproj.AssemblyReference.cache
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab03\Lab03.b\obj\Debug\Lab03.b.csproj.CoreCompileInputs.cache

@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{6086EBA9-4FA0-4BF5-A9A2-602641AC5BE2}|BaiTapLab3\\BaiTapLab3.csproj|solutionrelative:baitaplab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F7CD2228-B2A8-4566-A1FB-D56180AB5396}|BaiTapLab3.b\\BaiTapLab3.b.csproj|C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\baitaplab3.b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CD2228-B2A8-4566-A1FB-D56180AB5396}|BaiTapLab3.b\\BaiTapLab3.b.csproj|solutionrelative:baitaplab3.b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CFE529D0-8542-4292-8262-4169688F7193}|Lab03.c\\Lab03.c.csproj|C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\lab03.c\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFE529D0-8542-4292-8262-4169688F7193}|Lab03.c\\Lab03.c.csproj|solutionrelative:lab03.c\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{788EFA42-9B02-47BB-8FD2-9C681681F85A}|Lab03\\Lab03.csproj|C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\lab03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{788EFA42-9B02-47BB-8FD2-9C681681F85A}|Lab03\\Lab03.csproj|solutionrelative:lab03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7CA72917-610D-461A-92A9-23A97DCC6B8E}|Lab03.b\\Lab03.b.csproj|C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\lab03.b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA72917-610D-461A-92A9-23A97DCC6B8E}|Lab03.b\\Lab03.b.csproj|solutionrelative:lab03.b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788EFA42-9B02-47BB-8FD2-9C681681F85A}|Lab03\\Lab03.csproj|C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\lab03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788EFA42-9B02-47BB-8FD2-9C681681F85A}|Lab03\\Lab03.csproj|solutionrelative:lab03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\BaiTapLab3.b\\Program.cs",
+              "RelativeDocumentMoniker": "BaiTapLab3.b\\Program.cs",
+              "ToolTip": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\BaiTapLab3.b\\Program.cs",
+              "RelativeToolTip": "BaiTapLab3.b\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:37:11.612Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,7 +53,7 @@
               "RelativeDocumentMoniker": "BaiTapLab3\\Program.cs",
               "ToolTip": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\BaiTapLab3\\Program.cs",
               "RelativeToolTip": "BaiTapLab3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T04:16:10.9Z",
               "EditorCaption": ""
@@ -49,25 +66,25 @@
               "RelativeDocumentMoniker": "Lab03.b\\Program.cs",
               "ToolTip": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\Lab03.b\\Program.cs",
               "RelativeToolTip": "Lab03.b\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T03:40:28.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\Lab03.c\\Program.cs",
               "RelativeDocumentMoniker": "Lab03.c\\Program.cs",
               "ToolTip": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\Lab03.c\\Program.cs",
               "RelativeToolTip": "Lab03.c\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T03:39:55.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab03\\Lab03\\Program.cs",
               "RelativeDocumentMoniker": "Lab03\\Program.cs",

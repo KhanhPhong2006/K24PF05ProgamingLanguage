@@ -9,9 +9,8 @@ namespace Lab03
 {
     internal class Class1
     {
-        private Hashtable ht01;
-        private bool haskey;
-        private bool hasvalue;
+        private readonly Hashtable ht01; // Fix for IDE0044: Make field readonly
+        private readonly bool hasKey;    // Fix for IDE0044: Make field readonly
 
         public Class1()
         {
@@ -23,16 +22,16 @@ namespace Lab03
             ht01.Add("e", 5);
             ht01.Add(1, "c");
 
-            haskey = ht01.ContainsKey("a");
-            if (haskey)
+            hasKey = ht01.ContainsKey("a");
+            if (hasKey)
                 ht01.Remove("c");
 
-            haskey = ht01.ContainsKey("c");
-            if (haskey)
+            hasKey = ht01.ContainsKey("c");
+            if (hasKey)
                 ht01.Remove("f");
 
-            hasvalue = ht01.ContainsValue(3);
-            hasvalue = ht01.ContainsValue(6);
+            bool containsValue = ht01.ContainsValue(3); // Fix for SPELL: Rename 'hasvalue' to 'containsValue'
+            containsValue = ht01.ContainsValue(6);
 
             foreach (DictionaryEntry item in ht01)
             {
@@ -52,7 +51,9 @@ namespace Lab03
                 Console.WriteLine(value);
             }
 
-            Hashtable ht02 = (Hashtable)ht01.Clone();
+            var ht02 = (Hashtable)ht01.Clone();
         }
+
+      
     }
 }
