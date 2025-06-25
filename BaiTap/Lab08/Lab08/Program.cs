@@ -26,11 +26,15 @@ class Program
 
         await DisplayAllPlayers();
 
-        await UpdatePlayer("player3", gold: 999);
-        Console.WriteLine("\n====== Đã cập nhật player3 ======\n");
+        await UpdatePlayerFromConsole();
+        Console.WriteLine("\n====== Đã cập nhật người chơi từ console ======\n");
 
-        await DeletePlayer("player5");
-        Console.WriteLine("\n====== Đã xoá player5 ======\n");
+
+        await DeletePlayerFromConsole();
+        Console.WriteLine("\n====== Đã xoá người chơi từ console ======\n");
+
+        await AddSinglePlayerFromConsole();
+        Console.WriteLine("\n====== Đã thêm người chơi mới từ console ======\n");
 
         Console.WriteLine("\n====== Top 5 người chơi có Gold cao nhất ======\n");
         await GetTopGoldPlayers();
@@ -75,8 +79,11 @@ class Program
         }
     }
 
-    static async Task UpdatePlayer(string playerId, int? gold = null, int? score = null)
+    static async Task UpdatePlayerFromConsole()
     {
+        Console.Write("Nhập PlayerID cần cập nhật: ");
+        string playerId = Console.ReadLine();
+
         var player = await firebase.Child("Players").Child(playerId).OnceSingleAsync<Player>();
 
         if (player == null)
@@ -85,16 +92,70 @@ class Program
             return;
         }
 
-        if (gold != null) player.Gold = gold.Value;
-        if (score != null) player.Score = score.Value;
+        Console.Write("Cập nhật Gold mới (hoặc để trống nếu không đổi): ");
+        string goldInput = Console.ReadLine();
+        if (!string.IsNullOrWhiteSpace(goldInput) && int.TryParse(goldInput, out int newGold))
+        {
+            player.Gold = newGold;
+        }
+
+        Console.Write("Cập nhật Score mới (hoặc để trống nếu không đổi): ");
+        string scoreInput = Console.ReadLine();
+        if (!string.IsNullOrWhiteSpace(scoreInput) && int.TryParse(scoreInput, out int newScore))
+        {
+            player.Score = newScore;
+        }
 
         await firebase.Child("Players").Child(playerId).PutAsync(player);
+        Console.WriteLine($"Đã cập nhật thông tin người chơi {player.Name}.");
     }
 
-    static async Task DeletePlayer(string playerId)
+
+    static async Task DeletePlayerFromConsole()
     {
+        Console.Write("Nhập PlayerID cần xoá: ");
+        string playerId = Console.ReadLine();
+
+        var player = await firebase.Child("Players").Child(playerId).OnceSingleAsync<Player>();
+
+        if (player == null)
+        {
+            Console.WriteLine("Không tìm thấy người chơi để xoá.");
+            return;
+        }
+
         await firebase.Child("Players").Child(playerId).DeleteAsync();
+        Console.WriteLine($"Đã xoá người chơi có ID: {playerId}");
     }
+
+    static async Task AddSinglePlayerFromConsole()
+    {
+        Console.WriteLine("Nhập thông tin người chơi mới:");
+
+        Console.Write("PlayerID: ");
+        string id = Console.ReadLine();
+
+        Console.Write("Tên: ");
+        string name = Console.ReadLine();
+
+        Console.Write("Gold: ");
+        int gold = int.Parse(Console.ReadLine());
+
+        Console.Write("Score: ");
+        int score = int.Parse(Console.ReadLine());
+
+        var player = new Player
+        {
+            PlayerID = id,
+            Name = name,
+            Gold = gold,
+            Score = score
+        };
+
+        await firebase.Child("Players").Child(player.PlayerID).PutAsync(player);
+        Console.WriteLine("Đã thêm người chơi mới thành công.");
+    }
+
 
     static async Task GetTopGoldPlayers()
     {
