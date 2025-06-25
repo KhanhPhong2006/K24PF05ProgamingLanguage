@@ -19,27 +19,30 @@ class Program
 
     static async Task Main(string[] args)
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         await AddPlayers();
+        Console.WriteLine("====== Đã thêm 10 người chơi ======\n");
 
-       
         await DisplayAllPlayers();
 
-
         await UpdatePlayer("player3", gold: 999);
+        Console.WriteLine("\n====== Đã cập nhật player3 ======\n");
 
         await DeletePlayer("player5");
+        Console.WriteLine("\n====== Đã xoá player5 ======\n");
 
-        Console.WriteLine("Done.");
+        Console.WriteLine("\n====== Top 5 người chơi có Gold cao nhất ======\n");
         await GetTopGoldPlayers();
-        Console.WriteLine("Top 5 người chơi có Gold cao nhất đã được lưu vào node 'TopGold'.");
+
+        Console.WriteLine("\n====== Top 5 người chơi có Score cao nhất ======\n");
         await GetTopScorePlayers();
-        Console.WriteLine("Top 5 người chơi có Score cao nhất đã được lưu vào node 'TopScore'.");
+
+        Console.WriteLine("\nHoàn thành tất cả thao tác.");
     }
 
     static async Task AddPlayers()
     {
-        Console.OutputEncoding = System.Text.Encoding.UTF8;
         var players = new List<Player>
         {
             new Player { PlayerID = "player1", Name = "Alice", Gold = 100, Score = 200 },
@@ -58,8 +61,6 @@ class Program
         {
             await firebase.Child("Players").Child(player.PlayerID).PutAsync(player);
         }
-
-        Console.WriteLine("Đã thêm 10 người chơi.");
     }
 
     static async Task DisplayAllPlayers()
@@ -70,7 +71,7 @@ class Program
         foreach (var p in players)
         {
             var pl = p.Object;
-            Console.WriteLine($"ID: {pl.PlayerID}, Name: {pl.Name}, Gold: {pl.Gold}, Score: {pl.Score}");
+            Console.WriteLine($"ID: {pl.PlayerID}, Tên: {pl.Name}, Gold: {pl.Gold}, Score: {pl.Score}");
         }
     }
 
@@ -88,52 +89,44 @@ class Program
         if (score != null) player.Score = score.Value;
 
         await firebase.Child("Players").Child(playerId).PutAsync(player);
-
-        Console.WriteLine($"Đã cập nhật người chơi {playerId}.");
     }
 
     static async Task DeletePlayer(string playerId)
     {
         await firebase.Child("Players").Child(playerId).DeleteAsync();
-        Console.WriteLine($"Đã xoá người chơi {playerId}.");
     }
+
     static async Task GetTopGoldPlayers()
     {
-        var players = await firebase
-            .Child("Players")
-            .OnceAsync<Player>();
+        var players = await firebase.Child("Players").OnceAsync<Player>();
         var topPlayers = players
             .Select(p => p.Object)
             .OrderByDescending(p => p.Gold)
             .Take(5)
             .ToList();
+
         for (int i = 0; i < topPlayers.Count; i++)
         {
-            await firebase
-                .Child("TopGold")
-                .Child((i + 1).ToString())
-                .PutAsync(topPlayers[i]);
+            await firebase.Child("TopGold").Child((i + 1).ToString()).PutAsync(topPlayers[i]);
+            Console.WriteLine($"Hạng {i + 1}: {topPlayers[i].Name} - Gold: {topPlayers[i].Gold}");
         }
     }
+
     static async Task GetTopScorePlayers()
     {
-        var players = await firebase
-            .Child("Players")
-            .OnceAsync<Player>();
+        var players = await firebase.Child("Players").OnceAsync<Player>();
         var topPlayers = players
             .Select(p => p.Object)
             .OrderByDescending(p => p.Score)
             .Take(5)
             .ToList();
+
         for (int i = 0; i < topPlayers.Count; i++)
         {
-            await firebase
-                .Child("TopScore")
-                .Child((i + 1).ToString())
-                .PutAsync(topPlayers[i]);
+            await firebase.Child("TopScore").Child((i + 1).ToString()).PutAsync(topPlayers[i]);
+            Console.WriteLine($"Hạng {i + 1}: {topPlayers[i].Name} - Score: {topPlayers[i].Score}");
         }
     }
-
 }
 
 
