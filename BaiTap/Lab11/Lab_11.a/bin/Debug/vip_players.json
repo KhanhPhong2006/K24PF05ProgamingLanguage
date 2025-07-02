@@ -1,0 +1,30 @@
+[
+  {
+    "PlayerID": "P001",
+    "Name": "ShadowHunter",
+    "VipLevel": 3,
+    "Region": "Asia",
+    "LastLogin": "2025-06-29T14:00:00"
+  },
+  {
+    "PlayerID": "P002",
+    "Name": "FireKnight",
+    "VipLevel": 0,
+    "Region": "Europe",
+    "LastLogin": "2025-06-25T10:00:00"
+  },
+  {
+    "PlayerID": "P003",
+    "Name": "MoonElf",
+    "VipLevel": 2,
+    "Region": "Asia",
+    "LastLogin": "2025-06-30T01:00:00"
+  },
+  {
+    "PlayerID": "P004",
+    "Name": "IceWitch",
+    "VipLevel": 1,
+    "Region": "America",
+    "LastLogin": "2025-06-27T08:00:00"
+  }
+]

@@ -1,0 +1,7 @@
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab.10\Lab.10a\bin\Debug\Lab.10a.exe.config
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab.10\Lab.10a\bin\Debug\Lab.10a.exe
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab.10\Lab.10a\bin\Debug\Lab.10a.pdb
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab.10\Lab.10a\obj\Debug\Lab.10a.csproj.AssemblyReference.cache
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab.10\Lab.10a\obj\Debug\Lab.10a.csproj.CoreCompileInputs.cache
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab.10\Lab.10a\obj\Debug\Lab.10a.exe
+C:\Users\AminPC\Documents\GitHub\K24PF-05-Progaming-Language\BaiTap\Lab.10\Lab.10a\obj\Debug\Lab.10a.pdb

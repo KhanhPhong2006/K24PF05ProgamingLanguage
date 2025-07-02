@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07ADC2AC-164A-44EB-AC6F-F94D8EBADE0B}|Lab_11.a\\Lab_11.a.csproj|c:\\users\\aminpc\\documents\\github\\k24pf-05-progaming-language\\baitap\\lab11\\lab_11.a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07ADC2AC-164A-44EB-AC6F-F94D8EBADE0B}|Lab_11.a\\Lab_11.a.csproj|solutionrelative:lab_11.a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E331A7-7360-4D6D-90E9-F9BEAEEB0160}|Lab11\\Lab11.csproj|c:\\users\\aminpc\\documents\\github\\k24pf-05-progaming-language\\baitap\\lab11\\lab11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E331A7-7360-4D6D-90E9-F9BEAEEB0160}|Lab11\\Lab11.csproj|solutionrelative:lab11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab11\\Lab_11.a\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_11.a\\Program.cs",
+              "ToolTip": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab11\\Lab_11.a\\Program.cs",
+              "RelativeToolTip": "Lab_11.a\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T02:29:26.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab11\\Lab11\\Program.cs",
+              "RelativeDocumentMoniker": "Lab11\\Program.cs",
+              "ToolTip": "C:\\Users\\AminPC\\Documents\\GitHub\\K24PF-05-Progaming-Language\\BaiTap\\Lab11\\Lab11\\Program.cs",
+              "RelativeToolTip": "Lab11\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T02:13:54.072Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
